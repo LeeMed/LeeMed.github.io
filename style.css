@@ -42,13 +42,18 @@ header span{
     pointer-events: none;
     margin-right: 270px;
 }
+ .navigation{
+    border-radius: 90px;
+    padding: 6px 0px;
+    background-color: #93dfd5;
+} 
 
 .navigation a {
     text-decoration: none;
     color: #359381;
-    padding: 6px 15px;
+    padding: 6px 30px;
     border-radius: 20px;
-    margin: 0 10px;
+    margin: 0 0px;
     font-weight: 600;
 }
 
@@ -145,7 +150,7 @@ header span{
     content: '';
     width: 0;
     height: 3px;
-    background: #c0386a;
+    background: #93dfd5;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -163,7 +168,7 @@ header span{
 }
 
 .tab-content ul li span{
-    color: #c0386a;
+    color: #93dfd5;
     font-size: 20px;
 }
 
@@ -213,7 +218,7 @@ header span{
 }
 
 .services-list div:hover{
-    background:#c0386a;
+    background:#93dfd5;
     transform: translateY(-10px);
 }
 
@@ -248,7 +253,7 @@ header span{
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(54,75,113,0.6), #c0386a);
+    background: linear-gradient(rgba(54,75,113,0.6), #93dfd5);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -261,7 +266,7 @@ header span{
     padding: 0 40px;
     text-align: center;
     font-size: 14px;
-    transition: height 0.9s;
+    transition: height 0.5s;
 }
 
 .layer h3{
@@ -272,7 +277,7 @@ header span{
 
 .layer a{
     margin-top: 20px;
-    color: #c0386a;
+    color: #93dfd5;
     text-decoration:none ;
     font-size: 18px;
     line-height: 60px;
@@ -299,7 +304,7 @@ header span{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #c0386a;
+    border: 1px solid #93dfd5;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -308,7 +313,7 @@ header span{
 }
 
 .btn:hover{
-    background: #c0386a;
+    background: #93dfd5;
 }
 
 /*-----------contact----------*/
@@ -330,7 +335,7 @@ header span{
 }
 
 .contact-left p i{
-    color: #c0386a;
+    color: #93dfd5;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -349,13 +354,14 @@ header span{
 }
 
 .social-icons a:hover{
-    color: #c0386a;
+    color: #93dfd5;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
+    color: #003329;
     display: inline-block;
-    background: #c0386a;
+    background: #93dfd5;
 }
 
 .contact-right form{
