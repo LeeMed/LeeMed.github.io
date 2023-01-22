@@ -71,6 +71,10 @@ header span{
     height: 100vh;
 }
 
+.bb{
+    height: 100vh;  
+}
+
 .container{
     padding: 10px 5%;
 }
@@ -85,7 +89,7 @@ header span{
 #text1 {
     position: relative;
     font-size: 5em;
-    margin-top: -300px;
+    margin-top: -400px;
     color: #83b39a;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
@@ -331,6 +335,7 @@ header span{
 }
 
 .contact-left p{
+    color: #93dfd5;
     margin-top: 30px;
 }
 
