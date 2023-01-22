@@ -257,7 +257,7 @@ header span{
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(54,75,113,0.6), #93dfd5);
+    background: linear-gradient(rgba(54,75,113,0.6), #359381);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -274,6 +274,7 @@ header span{
 }
 
 .layer h3{
+    color: #003329;
     font-weight: 1000;
     margin-bottom: 20px;
     font-size: 30px;
@@ -281,11 +282,11 @@ header span{
 
 .layer a{
     margin-top: 20px;
-    color: #93dfd5;
+    color: #359381;
     text-decoration:none ;
     font-size: 18px;
     line-height: 60px;
-    background: #fff;
+    background: #003329;
     width: 60px;
     height: 60px;
     border-radius: 50%;
