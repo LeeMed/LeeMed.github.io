@@ -435,8 +435,9 @@ form .btn2{
     }
     
     .parallax {
+        
         position: relative;
-        display: flex;
+        display:flex;
         justify-content: center;
         align-items: center;
         height: 50vh;
@@ -448,5 +449,11 @@ form .btn2{
     .container{
         padding: 0px 10%;
     }
-    
+    .parallax img {
+        position:sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        pointer-events: none;
+    }
 }
