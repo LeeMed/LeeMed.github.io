@@ -392,15 +392,58 @@ form .btn2{
 }
 
 /* ----------------css for small screen -------------- */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1000px){
     body {
-        background: #003329;       
+        background: #f9f9f9;       
         width: 1000px;
         min-height: 100vh;
         overflow-x: hidden;
     }
     html{
         scroll-behavior:auto;
+    }
+
+    header {
+        position: absolute;
+        top: 0;
+        left: 150px;
+        width: 100%;
+        padding: 30px -800px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 100;
+    }
+    .navigation{
+        border-radius: 10px;
+        padding: 10px 2px;
+        background-color: #93dfd5;
+    } 
+    
+    .navigation a {
+        text-decoration: none;
+        color: #359381;
+        padding: 1px 30px;
+        border-radius: 90px;
+        margin: 10px 10px;
+        font-weight: 600;
+    }
+    
+    .navigation a:hover {
+        background: #359381;
+        color: #fff;
+    }
+    
+    .parallax {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+    
+    .bb{
+        height: 100vh;  
     }
     
 }
