@@ -57,8 +57,7 @@ header span{
     font-weight: 600;
 }
 
-.navigation a:hover,
-.navigation a.active {
+.navigation a:hover {
     background: #359381;
     color: #fff;
 }
@@ -390,4 +389,14 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+/* ----------------css for small screen -------------- */
+@media only screen and (max-width: 768px){
+    body {
+        background: #003329;       
+        width: 1000px;
+        overflow-x: hidden;
+    }
+    
 }
