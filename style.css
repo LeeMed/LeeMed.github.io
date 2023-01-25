@@ -396,7 +396,11 @@ form .btn2{
     body {
         background: #003329;       
         width: 1000px;
+        min-height: 100vh;
         overflow-x: hidden;
+    }
+    html{
+        scroll-behavior:auto;
     }
     
 }
