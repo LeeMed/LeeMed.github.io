@@ -390,9 +390,12 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+/* -------------------morework---------------- */
+
+
 
 /* ----------------css for small screen -------------- */
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 900px){
     body {
         background: #f9f9f9;       
         width: 1000px;
@@ -406,7 +409,7 @@ form .btn2{
     header {
         position: absolute;
         top: 0;
-        left: 150px;
+        left:20px;
         width: 100%;
         padding: 30px -800px;
         display: flex;
@@ -415,6 +418,7 @@ form .btn2{
         z-index: 100;
     }
     .navigation{
+        display: none;
         border-radius: 10px;
         padding: 10px 2px;
         background-color: #93dfd5;
@@ -435,12 +439,15 @@ form .btn2{
     }
     
     .parallax {
-        
+        background-image: url("img/5367246.jpg");
+        width: 100%;
+        background-size: cover;
+        background-color: #0f1c25;
         position: relative;
         display:flex;
         justify-content: center;
         align-items: center;
-        height: 50vh;
+        height: 60vh;
     }
     
     .bb{
@@ -450,10 +457,38 @@ form .btn2{
         padding: 0px 10%;
     }
     .parallax img {
-        position:sticky;
-        top: 0;
-        left: 0;
-        width: 100%;
-        pointer-events: none;
+        display: none;
+        
+    }
+
+    #about{
+        position: relative;
+        background: #0f1c25;
+        padding: 80px 0;
+        color: #ababab;
+    }
+
+    #services{
+        position: relative;
+        background: #0f1c25;
+        padding: 30px 0;
+    }
+
+    #portfolio{
+        position: relative;
+        background: #0f1c25;
+        padding: 50px 0;
+    }
+    
+
+    .layer h3{
+        color: #0f1c25;
+        font-weight: 1000;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    #contact{
+        position: relative;
+        background: #0f1c25;
     }
 }
