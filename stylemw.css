@@ -86,36 +86,156 @@ body {
     height: 500px;
     margin: 10px;
     border-radius: 50px;
-    background-image: url("img/portfolio1.jpg");
-    background-size: cover;
+    background-image: url("img/projRobotExample.png");
+    background-size:cover;
     background-position: center;
     position: relative;
     transition: width 0.5s;
 }
 
 .img-box:nth-child(2){
-    background: url("img/portfolio2.jpg");
+    background: url("img/1_a_5wNKSTaIGVi9EWStk6_Q.png");
     background-size: cover;
     background-position: center;
 }
+.img-box:nth-child(1) h3{
+    background-color: #020202a1;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    font-weight: 300;
+    left: 30px;
+    opacity: 00;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+
+.img-box:nth-child(2) h3{
+    background-color: #020202a1;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    font-weight: 300;
+    left: 30px;
+    opacity: 00;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:nth-child(3) h3{
+    background-color: #000000a1;
+    position: absolute;
+    bottom: 0;
+    font-weight: 300;
+    left: 30px;
+    opacity: 00;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:nth-child(4) h3{
+    background-color: #020202a1;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    font-weight: 300;
+    left: 30px;
+    opacity: 00;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:nth-child(5) h3{
+    background-color: #020202a1;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    font-weight: 300;
+    left: 30px;
+    opacity: 00;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:nth-child(6) h3{
+    background-color: #020202a1;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    font-weight: 300;
+    left: 30px;
+    opacity: 00;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+
+.img-box:nth-child(7) h3{
+    background-color: #020202a1;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    font-weight: 300;
+    left: 30px;
+    opacity: 00;
+    transition: bottom 0.5s, opacity 0.5s;
+}
 
 .img-box:nth-child(3){
-    background: url("img/portfolio3.jpg");
+    background: url("img/f42ae7b0ab578c72b39b29207fe71bd7.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(4){
-    background: url("img/p1.jpg");
+    background: url("img/p3.jpg");
     background-size: cover;
     background-position: center;
 }
 
+.img-box:nth-child(5){
+    background: url("img/battleship-og-img.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box:nth-child(6){
+    background: url("img/facerecog.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(7){
+    background: url("img/seakeeper-rendering.jpeg");
+    background-size: 500px;
+    background-position: center;
+}
+
+.img-box:nth-child(7) i{
+    color: rgb(11, 150, 200);
+}
+
+.img-box:nth-child(6) i{
+    color: rgb(255, 255, 255);
+    
+}
+
+.img-box i{
+    background-color: #ffffff00;
+    border-radius: 200px;
+    color: #ffffff;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 35px;
+    
+}
+
+
 .img-box h3{
-    color: #fff;
+    
+    
+    color: rgb(255, 255, 255);
     position: absolute;
     bottom: 0;
-    left: 30px;
+    left: 10px;
+    font-weight: 300;
     opacity: 0;
     transition: bottom 0.5s, opacity 0.5s;
 }
@@ -127,5 +247,5 @@ body {
 
 .img-box:hover h3{
     opacity: 1;
-    bottom: 25px;
+    bottom: 35px;
 }
