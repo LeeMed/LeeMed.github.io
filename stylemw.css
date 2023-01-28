@@ -27,24 +27,24 @@ header {
     z-index: 100;
 }
 header span{
-    color: #359381;
+    color: #ffffff;
 }
 
 .logo {
     font-size: 2em;
-    color: #359381;
+    color: #ffffff;
     pointer-events: none;
     margin-right: 500px;
 }
  .navigation{
     border-radius: 90px;
     padding: 6px 0px;
-    background-color: #93dfd5;
+    background-color: #ffcb70;
 } 
 
 .navigation a {
     text-decoration: none;
-    color: #359381;
+    color: #bd1490;
     padding: 10px 30px;
     border-radius: 20px;
     margin: 0 0px;
@@ -52,7 +52,7 @@ header span{
 }
 
 .navigation a:hover {
-    background: #359381;
+    background: #f49a00;
     color: #fff;
 }
 
