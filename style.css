@@ -103,7 +103,8 @@ header span{
 
 #about{
     position: relative;
-    background: #003329;
+    background-image: url("img/38205960340821.jpg");
+    background-size:cover;
     padding: 80px 0;
     color: #ababab;
 }
@@ -124,17 +125,23 @@ header span{
 }
 
 .about-col-2{
+    border-radius: 40px;
+    background-color: #0000006a;
     font-size:17px;
     flex-basis: 65%;
 }
-
+.about-col-2 p{
+    margin-left: 30px;
+}
 .sub-title{
+    margin-left: 30px;
     font-size: 60px;
     font-weight: 600;
     color: #fff;
 }
 
 .tab-titles{
+    margin: 100px;
     display: flex;
     margin: 20px 0 40px;
 }
@@ -167,7 +174,7 @@ header span{
 .tab-content ul li{
     color: #fff;
     list-style: none;
-    margin: 10px 0;
+    margin: 10px 20px;
 }
 
 .tab-content ul li span{
@@ -186,9 +193,10 @@ header span{
 
 /*-----------serv----------*/
 #services{
-    position: relative;
-    background: #003329;
-    padding: 30px 0;
+    position:relative;
+    background-image: url("img/ah.jpg");
+    background-size: cover;
+    padding: 30px ;
 }
 .services-list{
     display: grid;
@@ -221,14 +229,16 @@ header span{
 }
 
 .services-list div:hover{
-    background:#f49a00;
+    background: #ffffff;
     transform: translateY(-10px);
 }
 
 
 #portfolio{
     position: relative;
-    background: #003329;
+    /* background: #003329; */
+    background-image: url("img/38205960340821.jpg");
+    background-size: 100%;
     padding: 50px 0;
 }
 
