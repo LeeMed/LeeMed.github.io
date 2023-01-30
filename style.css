@@ -422,6 +422,42 @@ header span{
     transition: bottom 0.5s, opacity 0.5s;
 }
 
+.img-box img{
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-box1 img{
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.img-box h2{
+    background-color: #003329;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    opacity: 0;
+    left: 30px;
+    font-size: 35px;
+    height: 50px;
+    transition: opacity 0.5s;
+}
+
+
+
+.img-box1 h2{
+    background-color: #003329;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    opacity: 0;
+    left: 30px;
+    font-size: 35px;
+    height: 50px;
+}
+
 .img-box1:nth-child(2) h3{
     background-color: #020202a1;
     color: rgb(255, 255, 255);
@@ -539,8 +575,7 @@ a.fill-div {
 
 
 .img-box h3{
-    
-    
+ 
     color: rgb(255, 255, 255);
     position: absolute;
     bottom: 0;
@@ -559,6 +594,16 @@ a.fill-div {
 .img-box:hover h3{
     opacity: 1;
     bottom: 35px;
+}
+
+.img-box:hover h2{
+    opacity: 1;
+    
+}
+
+.img-box1:hover h2{
+    opacity: 1;
+    
 }
 
 .img-box1 h3{
