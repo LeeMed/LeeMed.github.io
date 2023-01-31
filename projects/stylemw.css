@@ -90,7 +90,7 @@ body {
     flex-basis:35%;
 }
 
-.about-col-1 img{
+.about-col-1 h3 img{
     width: 70%;
     border-radius: 15px;
     margin-left: 10px;
@@ -117,14 +117,15 @@ body {
     text-decoration: none;
     color: #fff;
     transition: background 0.5s;
+    margin-top: 60px;
 }
 
 .about-col-1 h2{
-    background-color: #003329;
+    background-color: #00332945;
     border-radius: 20px;
     position: absolute;
     /* top: 20px; */
-    margin-bottom: 10px;
+    margin-left: 68px;
 
     left: 30px;
     font-size: 35px;
