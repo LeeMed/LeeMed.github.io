@@ -358,6 +358,8 @@ header span{
     background-size:cover;
     background-position: center;
     position: relative;
+    border-style:solid;
+    border-color:#003d52;
     transition: width 0.5s, height 0.5s;
 }
 
@@ -370,6 +372,8 @@ header span{
     background-size:cover;
     background-position: center;
     position: relative;
+    border-style:solid;
+    border-color:#003d52;
     transition: width 0.5s, height 0.5s;
 }
 
@@ -525,6 +529,7 @@ header span{
 .img-box1:nth-child(1){
     background: url("img/facerecog.png");
     background-size: cover;
+    
     background-position: center;
 }
 
@@ -788,7 +793,6 @@ form .btn2{
     }
     
     .parallax {
-        background-image: url("img/5367246.jpg");
         width: 100%;
         background-size: cover;
         background-color: #0f1c25;
@@ -805,27 +809,32 @@ form .btn2{
     .container{
         padding: 0px 10%;
     }
-    .parallax img {
+    /* .parallax img {
         display: none;
         
-    }
+    } */
 
     #about{
         position: relative;
-        background: #0f1c25;
+        /* background: #0f1c25; */
         padding: 80px 0;
         color: #ababab;
+    }
+    .about-col-2{
+        
+        width: 20px;
     }
 
     #services{
         position: relative;
-        background: #0f1c25;
+        /* background: #0f1c25; */
         padding: 30px 0;
     }
 
     #portfolio{
         position: relative;
-        background: #0f1c25;
+        /* background: #0f1c25; */
+
         padding: 50px 0;
     }
     
@@ -836,8 +845,8 @@ form .btn2{
         margin-bottom: 20px;
         font-size: 30px;
     }
-    #contact{
+    /* #contact{
         position: relative;
         background: #0f1c25;
-    }
+    } */
 }
