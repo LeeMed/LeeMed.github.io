@@ -328,7 +328,7 @@ header span{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #359381;
+    border: 1px solid #003d52;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -671,7 +671,7 @@ a.fill-div {
 /*-----------contact----------*/
 #contact{
     position: relative;
-    background: #003329;
+    background: #003d52;
 }
 
 .contact-left{
@@ -683,12 +683,12 @@ a.fill-div {
 }
 
 .contact-left p{
-    color: #93dfd5;
+    color: #f9f9f9;
     margin-top: 30px;
 }
 
 .contact-left p i{
-    color: #93dfd5;
+    color: #ff841a;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -707,14 +707,14 @@ a.fill-div {
 }
 
 .social-icons a:hover{
-    color: #93dfd5;
+    color: #ff841a;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     color: #003329;
     display: inline-block;
-    background: #93dfd5;
+    background: #ff841a;
 }
 
 .contact-right form{
