@@ -33,24 +33,24 @@ header {
     z-index: 100;
 }
 header span{
-    color: #359381;
+    color: #003d52;
 }
 
 .logo {
     font-size: 2em;
-    color: #359381;
+    color: #003d52;
     pointer-events: none;
     margin-right: 270px;
 }
  .navigation{
     border-radius: 90px;
     padding: 6px 0px;
-    background-color: #93dfd5;
+    background-color: #003d52;
 } 
 
 .navigation a {
     text-decoration: none;
-    color: #359381;
+    color: #ff841a;
     padding: 6px 30px;
     border-radius: 20px;
     margin: 0 0px;
@@ -58,7 +58,7 @@ header span{
 }
 
 .navigation a:hover {
-    background: #359381;
+    background: #ff841a;
     color: #fff;
 }
 
@@ -81,7 +81,7 @@ header span{
 #text {
     position: absolute;
     font-size: 5em;
-    color: #fff;
+    color: #003d52;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 
@@ -89,7 +89,7 @@ header span{
     position: relative;
     font-size: 5em;
     margin-top: -400px;
-    color: #83b39a;
+    color: #ff841a;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 
@@ -103,7 +103,8 @@ header span{
 
 #about{
     position: relative;
-    background-image: url("img/38205960340821.jpg");
+    /* background-image: url("img/Designs-09.jpg"); */
+    background-color: #003d52;
     background-size:cover;
     padding: 10px 0;
     color: #ababab;
@@ -160,7 +161,7 @@ header span{
     content: '';
     width: 0;
     height: 3px;
-    background: #93dfd5;
+    background: #ff841a;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -178,7 +179,7 @@ header span{
 }
 
 .tab-content ul li span{
-    color: #93dfd5;
+    color: #ff841a;
     font-size: 20px;
 }
 
@@ -194,9 +195,17 @@ header span{
 /*-----------serv----------*/
 #services{
     position:relative;
-    background-image: url("img/ah.jpg");
+    background-image: url("img/5566879.jpg");
     background-size: cover;
     padding: 30px ;
+}
+
+#portfolio .container h1{
+    color:#003d52;
+}
+
+#services .container h1{
+    color:#003d52;
 }
 .services-list{
     display: grid;
@@ -214,7 +223,7 @@ header span{
     transition: transform 1s, background 1s;
 }
 
-.services-listh2{
+.services-list h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -229,18 +238,19 @@ header span{
 }
 
 .services-list div:hover{
-    background: #ffffff;
+    background: #ffc239;
     transform: translateY(-10px);
 }
 
 
 #portfolio{
     position: relative;
-    /* background: #003329; */
-    background-image: url("img/38205960340821.jpg");
+    /* background: #f2f2f2; */
+    background-image: url("img/87.jpg");
     background-size: 100%;
     padding: 50px 0;
 }
+
 
 .work-list {
     display: grid;
@@ -535,12 +545,41 @@ header span{
     background-position: center;
 }
 
+.img-box:nth-child(1) i{
+    color: #ff841a;
+}
+.img-box:nth-child(3) i{
+    color: #ff841a;
+}
+
+.img-box:nth-child(2) i{
+    color: #ff841a;
+}
+
+.img-box:nth-child(4) i{
+    color: #ff841a;
+    
+}
+
+.img-box:nth-child(5) i{
+    color: #ff841a;
+    
+}
+
+
+.img-box1:nth-child(1) i{
+    color: #ff841a;
+}
+.img-box1:nth-child(3) i{
+    color: #ff841a;
+}
+
 .img-box1:nth-child(2) i{
-    color: #359381;
+    color: #ff841a;
 }
 
 .img-box1:nth-child(4) i{
-    color: #359381;
+    color: #ff841a;
     
 }
 a.fill-div {
